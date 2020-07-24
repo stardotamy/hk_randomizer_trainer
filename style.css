@@ -24,6 +24,11 @@ body
     font-weight: normal;
 }
 
+#feedback {
+    font-size: small;
+    font-weight: normal;
+}
+
 .optlabel {
     width: 200px;
     display:inline-block;
