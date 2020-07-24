@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon&display=swap');
+
+body
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #B47EB3;
+}
+
+#title {
+    padding: 5px 5px 5px 10px;
+    background-color: #FFD5FF;
+}
+
+.titletext
+{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "Coming Soon";
+}
+
+#_version {
+    font-size: small;
+    font-weight: normal;
+}
+
+.optlabel {
+    width: 200px;
+    display:inline-block;
+    font-family: "Coming Soon";
+    text-align: center;
+}
+
+.theader
+{
+    text-align: center;
+    font-family: "Coming Soon";
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: #B47EB3;
+}
+
+.xbtn {
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    border: 2px solid;
+    padding: 4px;
+    margin: 2px;
+}
+
+.resetbtn
+{
+    border-color: black;
+    background-color: red;
+    color:white;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.waypoint {
+    display:block;
+    text-align:center;
+}
+
+.item {
+    background-color: #7CC6FE;
+    display:block;
+}
+
+.completed {
+    background-color: grey;
+    display:block;
+}
+
+.need {
+    background-color: #aaaaaa;
+    display:block;
+}
+
+.have {
+    background-color: #A5FFD6;
+    display:block;
+}
+
+.randomopt-off {
+    background-color: #aaaaaa;
+    display:inline-block;
+}
+
+.randomopt-on {
+    background-color: #A5FFD6;
+    display:inline-block;
+}
+
+.skipopt-off {
+    background-color: #aaaaaa;
+    display:inline-block;
+}
+
+.skipopt-on {
+    background-color: #A5FFD6;
+    display:inline-block;
+}
+
+.tooltip {
+    position: relative;
+    display: block;
+}
+
+.tooltip2 {
+    position: relative;
+}
+
+/* Tooltip text */
+.tooltip-text {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+    width:300px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    transform: translateX(50%);
+    font-family: 'Arial';
+}
+
+.tooltip2-text {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    border-radius: 6px;
+    width:500px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip2:hover .tooltip2-text {
+    visibility: visible;
+    transform: translateX(5%);
+    font-family: 'Arial';
+}
+
+.tt-operator {
+    color: lightgray;
+    text-emphasis: bold;
+}
+
+.tt-have {
+    color: #A5FFD6;
+}
+
+.tt-need {
+    color: #FF4242;
+}
+
+.check-able {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#7CC6FE;
+    border-radius: 10px;
+    padding: 2px;
+    color: black;
+}
+
+.check-ed {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 2px;
+    color: black;
+}
+
+.check-locked {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FF4242;
+    border-radius: 10px;
+    padding: 2px;
+    color: black;
+}
+
+.check-tt-header {
+    color: lightgrey;
+    font-size: large;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width:100%;
+}
+
+.check-tt-content {
+    padding-left: 8px;
+    font-weight: normal;
+}
+
+.check-tt-entry-title {
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.check-tt-entry-logic {
+    font-weight: bold;
+    padding: 2px 0px 0px 0px;
+    font-size: small;
+}
+
+.checkAreaHeader {
+      user-select: none;
+      font-weight: bold;
+      font-family: 'Coming Soon';
+      color: white;
+}
+
+.progressionHeader {
+    text-align: center;
+    user-select: none;
+    font-weight: bold;
+    font-family: 'Coming Soon';
+    color: white;
+}
