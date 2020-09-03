@@ -81,6 +81,13 @@ body
     display:block;
 }
 
+.item-theory {
+    background-color:  #5a8dac;
+    display:block;
+    border-style:dotted;
+    font-style: italic;
+}
+
 .completed {
     background-color: grey;
     display:block;
@@ -113,6 +120,18 @@ body
 
 .skipopt-on {
     background-color: #A5FFD6;
+    display:inline-block;
+}
+
+.skipwillopt-off {
+    background-color: #aaaaaa;
+    border-style:solid;
+    display:inline-block;
+}
+
+.skipwillopt-on {
+    border-style: solid;
+    background-color:  #5a8dac;
     display:inline-block;
 }
 
@@ -198,6 +217,14 @@ body
 .check-locked {
     font-family: 'Courier New', Courier, monospace;
     background-color: #FF4242;
+    border-radius: 10px;
+    padding: 2px;
+    color: black;
+}
+
+.check-theory {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #5a8dac;
     border-radius: 10px;
     padding: 2px;
     color: black;
