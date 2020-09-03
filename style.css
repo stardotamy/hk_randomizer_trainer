@@ -269,3 +269,67 @@ body
     font-family: 'Coming Soon';
     color: white;
 }
+
+.missing-item {
+    margin: 1px;
+    filter: grayscale(100%) saturate(300%) brightness(270%) opacity(0.5)
+}
+
+.have-item {
+    margin: 1px;
+    filter: brightness(150%);
+}
+
+.skill-row {
+    display:inline-block;
+    text-align: center;
+}
+
+.itemblock {
+    text-align: center;
+    background: black;
+    margin: 5px bottom;
+}
+
+.item-tooltip-text {
+    visibility: hidden;
+    background-color: #707070;
+    color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+    width:300px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.item-tooltip:hover .item-tooltip-text {
+    visibility: visible;
+    transform: translateY(200%) translateX(1%);
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+.triangle-down {
+    top: 90px;
+    left: 10px;
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid black;
+  }
+
+ .triangle-up {
+    top: 90px;
+    left: 10px;
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid black;
+  }
