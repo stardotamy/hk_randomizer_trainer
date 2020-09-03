@@ -70,6 +70,12 @@ body
     text-align:center;
 }
 
+.waypointBlock {
+    display:block;
+    border:1px dashed;
+    margin-bottom:5px;
+}
+
 .item {
     background-color: #7CC6FE;
     display:block;
