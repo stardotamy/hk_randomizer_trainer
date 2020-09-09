@@ -144,6 +144,11 @@ body
     position: relative;
 }
 
+.tooltip3 {
+    position: relative;
+    display: inline-block;
+}
+
 /* Tooltip text */
 .tooltip-text {
     visibility: hidden;
@@ -163,6 +168,14 @@ body
     visibility: visible;
     transform: translateX(50%);
     font-family: 'Arial';
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip3:hover .tooltip-text {
+    visibility: visible;
+    transform: translateX(5%) translateY(50%);
+    font-family: 'Arial';
+    z-index: 999;
 }
 
 .tooltip2-text {
@@ -333,3 +346,62 @@ body
     border-right: 10px solid transparent;
     border-bottom: 20px solid black;
   }
+
+.pickup-title {
+    font-family: "Coming Soon";
+    color: white;
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+}
+
+.pickup-area {
+    display: inline-block;
+    text-align: left;
+}
+
+.pickup-icon {
+    width: 48;
+    height: 48;
+    position: relative;
+}
+
+.pickup-icon .pickup-icon-overlay {
+    position: absolute;
+    z-index: 500;
+    margin: 0 auto;
+    top:0px;
+    left:22px;
+    font-weight: bold;
+    text-align: center;
+    width: 60%;
+}
+
+.pickup-state-0 { color: red }
+.pickup-state-1 { color: lightgreen}
+.pickup-state-2 { color: #7CC6FE}
+.pickup-state-3 { color: lightgreen }
+
+.stag-have
+{
+    display:inline-block;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 3px solid #fff;
+}
+
+.stag-missing
+{
+    display:inline-block;
+    border-radius: 50%;
+    width: 32px;
+    height: 28px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 3px solid #fff;
+}
